@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Primary Colors */
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* Netural Colors */
+    --transparent-white-p: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray-bhb: hsl(0, 0%, 95%);
+}
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background-color: var(--very-light-gray-bhb);
+}
+
+.container{    max-width: 960px;    margin: 0 auto;     }
+
+.wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 8px;
+    margin: 2rem;
+    overflow: hidden;    
+}
+
+.card{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.card-1{    background-color: var(--bright-orange);     }
+
+.card-2{    background-color: var(--dark-cyan);         }
+
+.card-3{    background-color: var(--very-dark-cyan);    }
+
+.card h2{
+    font-size: 46px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    color: var(--very-light-gray-bhb);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card p{    color: var(--transparent-white-p);   line-height: 1.6;       }
+
+.card a{
+    text-decoration: none;
+    background-color: var(--very-light-gray-bhb);
+    border-radius: 26px;
+    padding: 13px 27px;
+    margin-top: 60px;
+    border: 2px solid var(--very-light-gray-bhb);
+    font-weight: 600;
+    transition: background-color .3s ease;
+}
+
+.card-1 a{    color: var(--bright-orange);      }
+
+.card-2 a{    color: var(--dark-cyan);          }
+
+.card-3 a{    color: var(--very-dark-cyan);     }
+
+.card-1 a:hover{    background-color: var(--bright-orange);    color: var(--very-light-gray-bhb);   }
+
+.card-2 a:hover{    background-color: var(--dark-cyan);    color: var(--very-light-gray-bhb);       }
+
+.card-3 a:hover{    background-color: var(--very-dark-cyan);    color: var(--very-light-gray-bhb);  }
+
+.card a:hover{    color: var(--very-light-gray-bhb);    background: transparent;                    }
+
+/* Attribution */
+.attribution {
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.attribution a {     color: hsl(228, 45%, 44%);     text-decoration: none;      }
+
+@media only screen and (max-width: 768px){
+    .wrap{        grid-template-columns: 1fr;    }
+}
+
+@media only screen and (max-width: 425px){
+    .wrap{        margin: 2rem 1.5rem;          }
+}
