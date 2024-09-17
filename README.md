@@ -38,9 +38,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/3-column-preview-card-component--_FjIuFKLp)
 - [Live Site URL](https://3-column-preview-card-component-yashi.netlify.app)
-- [Repository Link](https://gitlab.com/Yashi-Singh-9/3-column-preview-card-component.git)
 
 ## My process
 
@@ -71,7 +69,7 @@ For the Styles refer to [Style Guide](style-guide.md).
 ## Author
 
 - LinkedIn - [Yashi Singh](https://www.linkedin.com/in/yashi-singh-b4143a246)
-- Frontend Mentor - [@Yashi-Singh-1](https://www.frontendmentor.io/profile/Yashi-Singh-1)
+- Frontend Mentor - [@Yashi-Singh-9](https://www.frontendmentor.io/profile/Yashi-Singh-9)
 
 ## Acknowledgments
 
