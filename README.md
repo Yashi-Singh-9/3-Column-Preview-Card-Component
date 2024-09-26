@@ -3,6 +3,7 @@
 This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7989b3e3-dbd8-452b-8caf-8eebb232d9cd/deploy-status)](https://app.netlify.com/sites/3-column-preview-card-component-yashi/deploys) 
+![Last Commit](https://img.shields.io/github/last-commit/Yashi-Singh-9/3-Column-Preview-Card-Component)
 
 ## Table of contents
 
@@ -38,6 +39,7 @@ Users should be able to:
 
 ### Links
 
+- [Solution URL](https://www.frontendmentor.io/solutions/3-column-preview-card-component-tAafMKmHu9)
 - [Live Site URL](https://3-column-preview-card-component-yashi.netlify.app)
 
 ## My process
