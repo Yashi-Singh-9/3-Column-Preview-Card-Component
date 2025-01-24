@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400&display=swap');
+
+$bright-orange: hsl(31, 77%, 52%);;
+$dark-cyan: hsl(184, 100%, 22%);;
+$very-dark-cyan: hsl(179, 100%, 13%);
+$transparent-white-p: hsla(0, 0%, 100%, 0.75);
+$very-light-gray-bhb: hsl(0, 0%, 95%);
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $very-light-gray-bhb !important;
+}
+
+main{
+    .container{
+        max-width: 960px;    
+        margin: 0 auto;
+
+        .wrap{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border-radius: 8px;
+            margin: 2rem;
+            overflow: hidden;    
+
+            @media only screen and (max-width: 768px)  {     
+                grid-template-columns: 1fr;   
+            }
+
+            @media only screen and (max-width: 425px){       
+                margin: 2rem 1.5rem;          
+            }
+
+            .card{
+                padding: 40px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+
+                &.card-1{
+                    background-color: $bright-orange;
+                }
+
+                &.card-2{
+                    background-color: $dark-cyan;
+                }
+
+                &.card-3{
+                    background-color: $very-dark-cyan;
+                }
+
+                h2{
+                    font-size: 46px;
+                    text-transform: uppercase;
+                    font-family: 'Big Shoulders Display', sans-serif;
+                    font-weight: 700;
+                    color: $very-light-gray-bhb;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+
+                p{
+                    color: $transparent-white-p;
+                    line-height: 1.6;
+                }
+
+                a{
+                    text-decoration: none;
+                    background-color: $very-light-gray-bhb;
+                    border-radius: 26px;
+                    padding: 13px 27px;
+                    margin-top: 60px;
+                    border: 2px solid $very-light-gray-bhb;
+                    font-weight: 600;
+                    transition: background-color 0.3s ease;
+                }
+
+                &.card-1 a{
+                    color: $bright-orange;
+
+                    &:hover{
+                        background-color: $bright-orange;
+                        color: $very-light-gray-bhb;
+                    }
+                }
+
+                &.card-2 a{
+                    color: $dark-cyan;
+
+                    &:hover{
+                        background-color: $dark-cyan;
+                        color: $very-light-gray-bhb;
+                    }
+                }
+
+                &.card-3 a{
+                    color: $very-dark-cyan;
+
+                    &:hover{
+                        background-color: $dark-cyan;
+                        color: $very-light-gray-bhb;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+    color: $very-dark-cyan;
+
+    a,
+    a:visited{
+        text-decoration: none;
+        color: $bright-orange;
+    }
+}

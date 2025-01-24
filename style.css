@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400&display=swap");
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 95%) !important;
+}
+
+main .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+main .container .wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 8px;
+  margin: 2rem;
+  overflow: hidden;
+}
+@media only screen and (max-width: 768px) {
+  main .container .wrap {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width: 425px) {
+  main .container .wrap {
+    margin: 2rem 1.5rem;
+  }
+}
+main .container .wrap .card {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+main .container .wrap .card.card-1 {
+  background-color: hsl(31, 77%, 52%);
+}
+main .container .wrap .card.card-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+main .container .wrap .card.card-3 {
+  background-color: hsl(179, 100%, 13%);
+}
+main .container .wrap .card h2 {
+  font-size: 46px;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main .container .wrap .card p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6;
+}
+main .container .wrap .card a {
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 26px;
+  padding: 13px 27px;
+  margin-top: 60px;
+  border: 2px solid hsl(0, 0%, 95%);
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+main .container .wrap .card.card-1 a {
+  color: hsl(31, 77%, 52%);
+}
+main .container .wrap .card.card-1 a:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+main .container .wrap .card.card-2 a {
+  color: hsl(184, 100%, 22%);
+}
+main .container .wrap .card.card-2 a:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+main .container .wrap .card.card-3 a {
+  color: hsl(179, 100%, 13%);
+}
+main .container .wrap .card.card-3 a:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+footer {
+  font-size: 12px;
+  margin-top: 20px;
+  text-align: center;
+  color: hsl(179, 100%, 13%);
+}
+footer a,
+footer a:visited {
+  text-decoration: none;
+  color: hsl(31, 77%, 52%);
+}/*# sourceMappingURL=style.css.map */

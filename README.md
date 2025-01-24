@@ -1,78 +1,118 @@
-# 3 Column Preview Card Component Frontend Mentor Solution
+# 3 Column Preview Card Component - Frontend Mentor Solution
 
-This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+[![Last Commit](https://img.shields.io/github/last-commit/Yashi-Singh-9/3-Column-Preview-Card-Component)](https://github.com/Yashi-Singh-9/3-Column-Preview-Card-Component/commits/main)  
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/Yashi-Singh-9/3-Column-Preview-Card-Component)  
+[![Frontend Mentor](https://img.shields.io/badge/FrontendMentor-Challenge-blue)](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7989b3e3-dbd8-452b-8caf-8eebb232d9cd/deploy-status)](https://app.netlify.com/sites/3-column-preview-card-component-yashi/deploys) 
-![Last Commit](https://img.shields.io/github/last-commit/Yashi-Singh-9/3-Column-Preview-Card-Component)
-
-## Table of contents
+## Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [The Challenge](#the-challenge)
+  - [Screenshots](#screenshots)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [Process](#process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Continued Development](#continued-development)
+  - [Useful Resources](#useful-resources)
+- [Installation and Running](#installation-and-running)
 - [Style Guide](#style-guide)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
-### The challenge
+### The Challenge
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
+- View the optimal layout depending on their device's screen size.
+- See hover states for interactive elements.
 
-### Screenshot
+### Screenshots
 
-#### Desktop Design: 
-![Screenshot](design/desktop-design.jpg)
+#### Desktop Design:
+![Desktop Screenshot](design/desktop-design.jpg)
 
-#### Mobile Design
-![Screenshot](design/mobile-design.jpg)
+#### Mobile Design:
+![Mobile Screenshot](design/mobile-design.jpg)
 
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/3-column-preview-card-component-tAafMKmHu9)
 - [Live Site URL](https://3-column-preview-card-component-yashi.netlify.app)
 
-## My process
+## Process
 
-### Built with
+### Built With
 
 - Semantic HTML5 markup
-- CSS custom properties
-- CSS Grid
+- SCSS (Sassy CSS)
+- CSS Grid for layout
 - Mobile-first workflow
 
-### What I learned
+### What I Learned
 
-During this project, I reinforced my understanding of CSS Grid to create a responsive layout.
+This project deepened my understanding of:
 
-### Continued development
+- Using SCSS to modularize and manage styles effectively.
+- Leveraging CSS Grid for responsive designs.
+- Creating hover states and transitions for improved user interactivity.
 
-In future projects, I would like to explore more advanced responsive design techniques and animations. Additionally, I want to experiment more with CSS Grid to understand its full potential.
+### Continued Development
 
-### Useful resources
+Moving forward, I aim to:
 
-- [CSS Grid Guide by MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) - This guide helped me understand how to create responsive layouts with CSS Grid.
-- [CSS Tricks: A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - This resource was invaluable in refining my understanding of CSS Grid.
+- Explore more advanced features of SCSS, such as mixins and functions.
+- Experiment with animations and transitions to enhance UI/UX.
+- Implement accessibility standards to ensure usability for all users.
+
+### Useful Resources
+
+- [MDN: CSS Grid Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) - Comprehensive CSS Grid documentation.
+- [CSS-Tricks: A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - Great for practical CSS Grid tips.
+- [Sass Documentation](https://sass-lang.com/documentation) - Essential guide for working with SCSS.
+
+## Installation and Running
+
+### Prerequisites
+
+- Ensure you have Node.js and npm installed on your system.
+- Install the `sass` package globally using npm:
+  ```bash
+  npm install -g sass
+  ```
+
+### Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Yashi-Singh-9/3-Column-Preview-Card-Component.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd 3-Column-Preview-Card-Component
+   ```
+
+3. Compile SCSS to CSS:
+   ```bash
+   sass styles.scss:styles.css --watch
+   ```
+   This will compile the SCSS file (`styles.scss`) into a CSS file (`styles.css`) and watch for changes.
+
+4. Open the `index.html` file in your browser to view the project.
 
 ## Style Guide
 
-For the Styles refer to [Style Guide](style-guide.md). 
+For details on design specifications such as colors, fonts, and spacing, refer to the [Style Guide](style-guide.md).
 
 ## Author
 
-- LinkedIn - [Yashi Singh](https://www.linkedin.com/in/yashi-singh-b4143a246)
-- Frontend Mentor - [@Yashi-Singh-9](https://www.frontendmentor.io/profile/Yashi-Singh-9)
+- **LinkedIn**: [Yashi Singh](https://www.linkedin.com/in/yashi-singh-b4143a246)
+- **Frontend Mentor**: [Yashi-Singh-9](https://www.frontendmentor.io/profile/Yashi-Singh-9)
+- **GitHub**: [Yashi-Singh-9](https://github.com/Yashi-Singh-9)
 
 ## Acknowledgments
 
-I would like to thank Frontend Mentor for providing such practical challenges. These projects are great for honing my frontend skills and learning new techniques.
+A huge thanks to [Frontend Mentor](https://www.frontendmentor.io) for providing this challenge and helping developers like me build real-world projects. These challenges are a fantastic way to practice and improve coding skills.
