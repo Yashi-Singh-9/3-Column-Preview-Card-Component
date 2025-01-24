@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/3-column-preview-card-component-tAafMKmHu9)
-- [Live Site URL](https://3-column-preview-card-component-yashi.netlify.app)
+- [Live Site URL](https://yashi-singh-9.github.io/3-Column-Preview-Card-Component/)
 
 ## Process
 
